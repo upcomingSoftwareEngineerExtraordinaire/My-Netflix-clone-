@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+.showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/assets/NG-en-20221128-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 4rem 0rem 4rem;
+}
+.netflix {
+  width: 130px;
+  height: 38px;
+  filter: brightness(120%);
+}
+.signin {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+.showcase-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 4rem;
+}
+.items h1 {
+  font-size: 3.2rem;
+  margin-bottom: 0.5rem;
+}
+.items h3 {
+  font-size: 1.5rem;
+}
+.items p {
+  font-size: 1.1rem;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#email {
+  width: 25rem;
+  height: 3.5rem;
+  padding: 1rem;
+  border: 1px solid black;
+}
+.submit {
+  background-color: red;
+  color: white;
+  padding: 1rem;
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  height: 3.5rem;
+}
+section {
+  border-bottom: 8px solid #222;
+  background-color: black;
+}
+.second {
+  height: 70vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.secondText {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.secondText h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+}
+.secondText h2 {
+  line-height: 2rem;
+}
+.secondImg {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.third {
+  width: 100vw;
+  height: 40vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.forth {
+  width: 100vw;
+  height: 80vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.secondImg video {
+  position: absolute;
+  top: 80px;
+  right: 72px;
+  width: 23.2rem;
+}
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 22rem;
+  height: 6rem;
+  border-radius: 10px;
+  bottom: 25px;
+}
+.download img {
+  width: 60px;
+}
+.download span {
+  color: dodgerblue;
+}
+.faq {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+  color: white;
+  background-color: black;
+}
+.faq h1 {
+  font-size: 3rem;
+  margin: 4.5rem 0rem 2.5rem 0rem;
+}
+.faq form {
+  margin: 2rem 0rem 3rem 0rem;
+}
+.accordion {
+  background-color: #303030;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  margin-top: 1rem;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.5rem;
+  transition: 0.4s;
+}
+.panel {
+  font-size: 1.6rem;
+  padding: 18px;
+  margin-top: 1px;
+  display: none;
+  width: 70%;
+  background-color: #303030;
+  overflow: hidden;
+}
+.panel p {
+  margin-bottom: 1rem;
+}
+.readyToWatch {
+  margin-top: 4.5rem;
+  margin-bottom: 0;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4.5rem;
+}
+.footerDiv {
+  width: 72%;
+}
+.footerDiv p {
+  margin-bottom: 2rem;
+  color: #737373;
+}
+.footerDiv ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footerDiv ul li {
+  width: 25%;
+  margin-bottom: 1rem;
+  list-style-type: none;
+  font-size: smaller;
+}
+.footerDiv ul li a {
+  text-decoration: none;
+  color: #737373;
+}
+.footerDiv ul li a:hover {
+  text-decoration: underline;
+}
+.fNetflix {
+  font-size: smaller;
+  margin-top: 1.8rem;
+}
+.footer {
+  border-bottom: none;
+}
